@@ -10,6 +10,9 @@ pipeline {
         sh 'echo "DEV,UAT,Prod"'
       }
    }
+   stage('Sprint1') {
+      steps {
+        sh 'echo "DEV,UAT,Prod"'
   }
  }
 
